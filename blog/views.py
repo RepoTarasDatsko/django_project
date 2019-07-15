@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from .models import Post
+ context = {
+ 		fild: 'My fild'
+ }
 
 def home(request):
 	context = {
